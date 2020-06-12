@@ -11,5 +11,13 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    padding-bottom: 0px;
+    border: 1px solid red;
+  }
+  .hero-image {
+    height: auto;
+    margin: 0;
+    width: 120%;
+    display: block;
   }
 }

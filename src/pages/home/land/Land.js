@@ -11,7 +11,7 @@ const Land = () => (
   <section className="section section-hero">
     <div className="container">
       <div className="row justify-content-between">
-        <div className="col-12 col-md-6 px-md-5">
+        <div className="col-12 col-md-7 pr-md-5">
           <div className="mb-4">
             <Title text="A seamless and cheaper voucher based money transfer & payment experience" />
           </div>
@@ -31,7 +31,7 @@ const Land = () => (
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-5">
+        <div className="col-12 col-md-4">
           <img
             src="https://res.cloudinary.com/seamless-africa-fintech/image/upload/v1591785262/balance_r980ob.png"
             alt=""
