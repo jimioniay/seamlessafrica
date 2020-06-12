@@ -4,7 +4,7 @@
   min-height: 530px;
 }
 .pushpin > svg {
-  width: 10%;
+  width: 16%;
   margin-bottom: 41px;
 }
 @media (min-width: 768px) {
