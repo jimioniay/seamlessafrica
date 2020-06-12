@@ -1,0 +1,9 @@
+.form-body {
+  margin-bottom: 250px !important;
+}
+
+@media (min-width: 768px) {
+  .form-body {
+    margin-bottom: 500px !important;
+  }
+}

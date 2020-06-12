@@ -1,0 +1,15 @@
+.hero-image {
+  height: auto;
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .section-hero {
+    background-image: url('https://res.cloudinary.com/seamless-africa-fintech/image/upload/v1591296078/Rectangle_12_background_1_qjljrk.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+}

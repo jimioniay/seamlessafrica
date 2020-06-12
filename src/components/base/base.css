@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Averta;
+  src: url('./AvertaDemo-Regular.otf');
+}
+
+@font-face {
+  font-family: AvertaBold;
+  src: url('./AvertaDemo-Regular.otf');
+  font-weight: bold;
+}
+body {
+  font-family: Averta !important;
+  font-style: normal !important;
+  color: #253858 !important;
+}
+
+.section {
+  padding-top: 40px !important;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 100px !important;
+  }
+}

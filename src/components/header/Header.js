@@ -1,0 +1,54 @@
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+import Menu from './Menu';
+import SVG from '../svg';
+import './header.css';
+
+const Nav = () => {
+  const [show, setShow] = useState(false);
+  const handleClick = () => setShow(!show);
+  return (
+    <header className="header sticky-top">
+      <div className="container">
+        <nav className="header-navbar">
+          <Link to="/" className="logo">
+            <SVG name="saf-logo" />
+          </Link>
+          <div className="header-menu" onClick={handleClick}>
+            <SVG name="harmburger" />
+          </div>
+          <ul className="nav-list">
+            <li className="nav-list--item">
+              <Link className="nav-link" to="/about">
+                About Us
+              </Link>
+            </li>
+            <li className="nav-list--item">
+              <Link className="nav-link" to="/faq">
+                FAQ
+              </Link>
+            </li>
+            <li className="nav-list--item">
+              <Link className="nav-link" to="/contact">
+                Contact Us
+              </Link>
+            </li>
+            <li className="nav-list--item">
+              <Link className="nav-link nav-link--login" href="#">
+                Login
+              </Link>
+            </li>
+            <li className="nav-list--item">
+              <Link className="nav-link" href="#">
+                Sign Up
+              </Link>
+            </li>
+          </ul>
+        </nav>
+        {show && <Menu />}
+      </div>
+    </header>
+  );
+};
+export default Nav;

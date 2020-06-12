@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "firstName",
+    "label": "First Name",
+    "type": "input",
+    "className": "col-12 col-md-4",
+    "placeholder": "Enter First Name"
+  },
+  {
+    "id": 2,
+    "name": "lastName",
+    "label": "Last Name",
+    "type": "input",
+    "className": "col-12 col-md-4",
+    "placeholder": "Enter Last Name"
+  },
+  {
+    "id": 3,
+    "name": "companyName",
+    "label": "Company Name",
+    "type": "input",
+    "className": "col-12 col-md-4",
+    "placeholder": "Enter Company Name"
+  },
+  {
+    "id": 4,
+    "name": "email",
+    "label": "Email Address",
+    "type": "email",
+    "className": "col-12 col-md-4",
+    "placeholder": "Enter Email"
+  },
+  {
+    "id": 5,
+    "name": "phoneNumber",
+    "label": "Phone Number",
+    "type": "tel",
+    "className": "col-12 col-md-4",
+    "placeholder": "Enter phone Number"
+  },
+  {
+    "id": 6,
+    "name": "country",
+    "label": "Country",
+    "type": "select",
+    "className": "col-12 col-md-4",
+    "placeholder": "Choose a country"
+  },
+  {
+    "id": 7,
+    "name": "enquiries",
+    "label": "Questions / Enquiries",
+    "type": "textarea",
+    "className": "col-12",
+    "placeholder": "Enter your message here"
+  }
+]

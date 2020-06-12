@@ -1,0 +1,25 @@
+.btn-primary {
+  width: 50%;
+  text-align: center;
+  padding: 5px 10px;
+  color: white;
+  background-color: #0052cc !important;
+  border-color: #0052cc !important;
+  height: 60px !important;
+}
+.wd-100 {
+  width: 100%;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+@media (min-width: 768px) {
+  .btn-primary {
+    width: 100%;
+    height: 46px;
+  }
+  .wd-md-25 {
+    width: 25% !important;
+  }
+}

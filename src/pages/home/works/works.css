@@ -1,0 +1,22 @@
+.works {
+  background: linear-gradient(96.79deg, #457fd6 15.7%, #00c7e5 150.77%);
+  border-radius: 9px;
+  min-height: 530px;
+}
+.pushpin > svg {
+  width: 10%;
+  margin-bottom: 41px;
+}
+@media (min-width: 768px) {
+  .works {
+    background: linear-gradient(118.61deg, #457fd6 15.7%, #00c7e5 150.77%);
+    border-radius: 9px;
+    min-height: 500px;
+  }
+  .pt-md-5 {
+    padding-top: 6rem !important;
+  }
+  .dip {
+    padding-top: 80px;
+  }
+}

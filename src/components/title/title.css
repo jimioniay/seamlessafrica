@@ -1,0 +1,50 @@
+.title {
+  color: #0052cc;
+  line-height: 150.8%;
+  font-weight: 800;
+  font-size: 24px;
+  font-style: normal;
+}
+.title-small {
+  font-size: 20px;
+}
+.title-average {
+  font-size: 16px;
+}
+.works-count {
+  color: rgba(255, 255, 255, 0.26);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 165%;
+}
+.works-item {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 165%;
+  color: #ffffff;
+}
+.sub-title {
+  font-size: 20px;
+  line-height: 165%;
+  color: #172b4d;
+}
+.blue {
+  color: #0052cc;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+  .title-small {
+    font-size: 32px;
+  }
+  .sub-title {
+    font-size: 24px;
+  }
+  .works-count {
+    font-size: 40px;
+  }
+  .works-item {
+    font-size: 18px;
+  }
+}

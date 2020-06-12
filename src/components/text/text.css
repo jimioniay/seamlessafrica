@@ -1,0 +1,34 @@
+p {
+  line-height: 250%;
+}
+.default-text {
+  line-height: 145%;
+  font-size: 14px;
+}
+
+.big {
+  font-size: 16px;
+}
+.small {
+  font-size: 14px;
+  line-height: 200%;
+}
+.bold {
+  font-weight: 800;
+}
+.smaller {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+}
+.tiny {
+  font-size: 10px;
+  line-height: 13px;
+  line-height: 165%;
+}
+
+@media (min-width: 768px) {
+  .default-text {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,28 @@
+.default {
+  border: 1px solid #97a0af;
+  padding: 15px 15px;
+}
+
+.form {
+  background: #f0f7ff;
+  border: 1px solid #97a0af;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.checkbox {
+  border: 1px solid #515151;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.textarea {
+  height: 300px;
+}
+
+
+@media (min-width) {
+  .textarea {
+    height: 125px;
+  }
+}

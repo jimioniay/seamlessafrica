@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "",
+    "title": "Simple Setup",
+    "content": "Fast, affordable and secure money transfers to wallets and registered merchants accounts, while saving you upto 70% in fees and foreign exchange."
+  },
+  {
+    "id": 2,
+    "icon": "",
+    "title": "Low Transacting Fees",
+    "content": "Just 1% + 20p per transaction, capped at £4. It’s cheaper than taking credit card and much easier than cheque and standing order."
+  },
+  {
+    "id": 3,
+    "icon": "",
+    "title": "Safe and Secure Payment",
+    "content": "Each grain voucher is 100% backed by 1 grain of gold bullion (this is not a coincidence!) held securely in Zurich, Switzerland."
+  },
+  {
+    "id": 4,
+    "icon": "",
+    "title": "Anywhere anytime access",
+    "content": "With the angu app, customers can easily access their wallet balance and transact anytime, anywhere on their mobility tools."
+  }
+]

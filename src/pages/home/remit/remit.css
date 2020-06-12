@@ -1,0 +1,28 @@
+.remit-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .remit-container {
+    margin-left: 3em !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .remit-container {
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .remit-container {
+    margin-left: 1% !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .remit-container {
+    margin-left: 7em !important;
+  }
+}
