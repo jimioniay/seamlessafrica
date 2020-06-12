@@ -37,23 +37,23 @@ const Body = () => (
           <Text text="Exhaustive intellectual, legal and market research has been done over a number of years to determine what Zimbabwe and the region needs in order to enjoy the economic growth that it has a right to. MyAngu is the result of this work." />
         </div>
       </div>
-      <div className="d-flex flex-column flex-md-row pl-md-3">
-        <div className="mb-3 mr-md-5">
+      <div className="d-flex flex-column flex-lg-row px-2">
+        <div className="mb-3 px-2">
           <SVG name="checkbox" />
           <Text
             text="Send grains to family and friends"
-            classNames="bold d-inline ml-4"
+            classNames="bold d-inline ml-2 text-wrap"
           />
         </div>
-        <div className="mb-3 mr-md-5">
+        <div className="mb-3 px-2">
           <SVG name="checkbox" />
-          <Text text="Save in a secure way" classNames="bold d-inline ml-4" />
+          <Text text="Save in a secure way" classNames="bold d-inline ml-2" />
         </div>
-        <div className="mb-3 mr-md-5">
+        <div className="mb-3 px-2">
           <SVG name="checkbox" />
           <Text
             text="Spend grains at participating retailers"
-            classNames="bold d-inline ml-4"
+            classNames="bold d-inline ml-2"
           />
         </div>
       </div>

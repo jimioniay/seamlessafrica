@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from '../../../components/container/Container';
 import Title from '../../../components/title';
 import Text from '../../../components/text';
 import SVG from '../../../components/svg';
@@ -8,7 +7,7 @@ import './works.css';
 
 const Works = () => (
   <section className="section mb-5">
-    <Container>
+    <div className="container">
       <div className="works p-2 p-md-4">
         <div className="d-flex flex-column align-content-start align-items-md-center">
           <div className="text-center">
@@ -54,7 +53,7 @@ const Works = () => (
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   </section>
 );
 

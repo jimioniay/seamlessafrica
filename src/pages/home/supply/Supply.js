@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from '../../../components/container/Container';
 import Title from '../../../components/title';
 import Text from '../../../components/text';
 import Suppliers from './Suppliers';
@@ -8,8 +7,8 @@ import './supply.css';
 
 const Supply = () => (
   <section className="section">
-    <Container>
-      <div className="container margin d-flex flex-column">
+    <div className="container">
+      <div className="margin d-flex flex-column">
         <div>
           <Title
             text="Our Supply Partners"
@@ -22,7 +21,7 @@ const Supply = () => (
         </div>
       </div>
       <Suppliers />
-    </Container>
+    </div>
   </section>
 );
 export default Supply;
