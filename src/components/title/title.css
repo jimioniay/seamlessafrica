@@ -28,6 +28,10 @@
   line-height: 165%;
   color: #172b4d;
 }
+
+.faq-title {
+  font-size: 18px;
+}
 .blue {
   color: #0052cc;
 }
@@ -46,5 +50,8 @@
   }
   .works-item {
     font-size: 18px;
+  }
+  .faq-title {
+    font-size: 36px;
   }
 }

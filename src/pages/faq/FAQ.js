@@ -101,19 +101,17 @@ const FAQ = () => {
   return (
     <Base>
       <section className="section">
-        <div className="container">
-          <div classNames="p-md-5">
-            <div className="py-5 p-md-5 faq-header">
-              <div className="d-flex flex-column justify-content-md-center p-3 p-md-5">
-                <Title
-                  text="FREQUENTLY ASKED QUESTIONS"
-                  classNames="text-white mb-2 mb-md-4"
-                />
-                <Input
-                  classNames="mx-auto w-100"
-                  placeholder="Search a question"
-                />
-              </div>
+        <div className="container px-2 faq-header">
+          <div className="py-5 p-md-5">
+            <div className="d-flex flex-column justify-content-md-center p-3 p-md-5">
+              <Title
+                text="FREQUENTLY ASKED QUESTIONS"
+                classNames="faq-title text-md-center text-white mb-2 mb-md-4"
+              />
+              <Input
+                classNames="mx-auto w-100"
+                placeholder="Search a question"
+              />
             </div>
           </div>
         </div>
