@@ -6,7 +6,7 @@ import Suppliers from './Suppliers';
 import './supply.css';
 
 const Supply = () => (
-  <section className="section">
+  <section className="">
     <div className="container">
       <div className="margin d-flex flex-column mb-md-5">
         <div>
