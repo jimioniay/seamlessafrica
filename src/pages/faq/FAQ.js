@@ -85,9 +85,9 @@ const FAQ = () => {
           <span className="question-title">{item.question}</span>
           <div className="question-icon">
             {questions[item.id - 1].show ? (
-              <SVG name="select" className="up" />
-            ) : (
               <SVG name="select" />
+            ) : (
+              <SVG name="select" className="up" />
             )}
           </div>
         </div>

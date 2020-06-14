@@ -12,6 +12,12 @@ const About = () => (
     <Body />
     <Story />
     <Store />
+    <div className="mb-md-5 invisible">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+      repellendus totam assumenda soluta, tempore atque quasi praesentium, hic
+      fuga consequatur odit magni alias esse ut cum, quam laboriosam molestiae
+      voluptates.
+    </div>
   </Base>
 );
 

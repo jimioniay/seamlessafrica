@@ -45,7 +45,7 @@
 
 .nav-list--item {
   display: inline-block;
-  margin-right: 18px;
+  /* margin-right: 18px; */
 }
 
 .nav-list-block > .nav-list--item {
@@ -66,9 +66,10 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  padding: 5px !important;
+  /* padding: 5px !important; */
+  padding: 10px 15px !important;
   color: #4b4b4b;
-  min-width: 100px;
+  /* min-width: 100px; */
 }
 
 .nav-link:hover {
@@ -79,7 +80,7 @@
   border-radius: 3px;
   color: white;
   padding: 10px 30px !important;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 .nav-list-block > .nav-link--login {
@@ -99,6 +100,23 @@
   }
   .nav-list {
     display: flex;
+    justify-content: space-between;
+  }
+  .nav-list-1,
+  .nav-list-2 {
+    display: flex;
     justify-content: space-around;
+  }
+  .nav-list-2 {
+    padding-left: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    padding: 10px 25px !important;
+  }
+  .nav-list-2 {
+    padding-left: 60px;
   }
 }

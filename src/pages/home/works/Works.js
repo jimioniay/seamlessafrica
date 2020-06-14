@@ -28,7 +28,7 @@ const Works = () => (
               />
               <Text
                 text="It’s fast and easy, to setup an account with us, in minutes your account should be up and running."
-                classNames="small text-white"
+                classNames="small-text text-white"
               />
             </div>
             <div className="col-12 px-md-5 dip col-md-4 mb-4">
@@ -39,7 +39,7 @@ const Works = () => (
               />
               <Text
                 text="Deposit money into your wallet using the app which is then converted into Angu Vouchers called grains."
-                classNames="small text-white"
+                classNames="small-text text-white"
               />
             </div>
             <div className="col-12 px-md-5 col-md-4 mb-4">
@@ -47,7 +47,7 @@ const Works = () => (
               <Title text="Start Transactions" classNames="works-item" />
               <Text
                 text="Job done, you can now enjoying the benefit of! Start transacting, send grains, make payments and save."
-                classNames="small text-white"
+                classNames="small-text text-white"
               />
             </div>
           </div>

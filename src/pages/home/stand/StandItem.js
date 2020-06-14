@@ -12,15 +12,15 @@ const renderStand = () =>
   StandItemJson.map(item => (
     <Fragment key={item.id}>
       <div class="col-12 col-md-6 mb-4 px-lg-5">
-        <div className="d-flex flex-column text-left px-lg-1">
+        <div className="d-flex flex-column text-left px-xl-5">
           <div className="d-flex justify-content-start mb-3">
             {renderIcon(item.id)}
           </div>
           <div>
             <Title text={item.title} classNames="sub-title" />
           </div>
-          <div>
-            <Text text={item.content} classNames="small" />
+          <div className="pr-xl-5">
+            <Text text={item.content} classNames="small-text" />
           </div>
         </div>
       </div>

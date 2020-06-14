@@ -20,9 +20,30 @@ const Input = ({
   required,
   disabled,
   handleBlur,
+  children,
 }) => {
   const props = value !== undefined ? { value } : {};
-  return (
+  return type === 'textarea' ? (
+    <textarea
+      data-test="input"
+      type={type}
+      name={name}
+      ref={inputRef}
+      accept={accept}
+      className={`default rounded ${classNames}`}
+      placeholder={placeholder}
+      onChange={handleChange}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
+      {...props}
+      autoComplete={autoComplete}
+      checked={checked}
+      required={required}
+      disabled={disabled}
+    >
+      {children}
+    </textarea>
+  ) : (
     <input
       data-test="input"
       type={type}

@@ -19,31 +19,35 @@ const Nav = () => {
             <SVG name="harmburger" />
           </div>
           <ul className="nav-list">
-            <li className="nav-list--item">
-              <Link className="nav-link" to="/about">
-                About Us
-              </Link>
-            </li>
-            <li className="nav-list--item">
-              <Link className="nav-link" to="/faq">
-                FAQ
-              </Link>
-            </li>
-            <li className="nav-list--item">
-              <Link className="nav-link" to="/contact">
-                Contact Us
-              </Link>
-            </li>
-            <li className="nav-list--item">
-              <Link className="nav-link nav-link--login" href="#">
-                Login
-              </Link>
-            </li>
-            <li className="nav-list--item">
-              <Link className="nav-link" href="#">
-                Sign Up
-              </Link>
-            </li>
+            <div className="nav-list-1">
+              <li className="nav-list--item">
+                <Link className="nav-link" to="/about">
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-list--item">
+                <Link className="nav-link" to="/faq">
+                  FAQ
+                </Link>
+              </li>
+              <li className="nav-list--item">
+                <Link className="nav-link" to="/contact">
+                  Contact Us
+                </Link>
+              </li>
+            </div>
+            <div className="nav-list-2">
+              <li className="nav-list--item">
+                <Link className="nav-link nav-link--login" href="#">
+                  Login
+                </Link>
+              </li>
+              <li className="nav-list--item">
+                <Link className="nav-link" href="#">
+                  Sign Up
+                </Link>
+              </li>
+            </div>
           </ul>
         </nav>
         {show && <Menu />}

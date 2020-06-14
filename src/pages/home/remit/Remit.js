@@ -7,7 +7,7 @@ import './remit.css';
 
 const Remit = () => (
   <section className="container-fluid mb-5 remit-container pr-md-1 pt-md-5 ">
-    <div className="row">
+    <div className="row px-md-5">
       <div className="col-12 col-md-6 px-md-5">
         <Title
           text="REMMITANCE SAVINGS & IMPORTS"
@@ -15,15 +15,15 @@ const Remit = () => (
         />
         <Text
           text="The app allows you bypass the black market or headline remittance companies to get money to them, then this is the app for you.  It allows you to send funds to friends and family, or pay for things directly in participating retailers."
-          classNames="small mb-2"
+          classNames="small-text mb-2 "
         />
         <Text
           text="MyAngu benefits from continuous world-class encryption built to bring covienience to the way people save money, send money and also make payments for goods."
-          classNames="small mb-2"
+          classNames="small-text mb-2"
         />
         <Text
           text="For added comfort, it should be noted that no money is actually being moved by the app itself and we have mechanisms in place to ensure that no one can access your Angu account. Great care is taken whenever a client wishes to redeem grains, ensuring their identity and legitimacy."
-          classNames="small mb-2"
+          classNames="small-text mb-2"
         />
       </div>
       <div className="remit-image col-12 col-md-6 px-md-0 mb-5 pr-md-3">

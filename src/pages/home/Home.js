@@ -18,7 +18,12 @@ const Home = () => (
     <Works />
     <Remit />
     <Store />
-    <div className="mb-5">;&nbsp;</div>
+    <div className="mb-md-5 invisible">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+      repellendus totam assumenda soluta, tempore atque quasi praesentium, hic
+      fuga consequatur odit magni alias esse ut cum, quam laboriosam molestiae
+      voluptates.
+    </div>
   </Base>
 );
 

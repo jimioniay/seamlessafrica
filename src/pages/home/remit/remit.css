@@ -15,14 +15,22 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   .remit-container {
     margin-left: 1% !important;
+    padding-left: 2em !important;
+  }
+}
+@media (min-width: 1300px) {
+  .remit-container {
+    margin-left: 1em !important;
+    padding-left: 2em !important;
   }
 }
 
 @media (min-width: 1500px) {
   .remit-container {
-    margin-left: 7em !important;
+    margin-left: 3em !important;
+    padding-left: 10em !important;
   }
 }

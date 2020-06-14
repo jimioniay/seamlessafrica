@@ -44,7 +44,7 @@ const FormBody = () => {
   return (
     <>
       {renderForm()}
-      <div className="col-12 d-flex flex-column flex-md-row justify-content-md-between">
+      <div className="col-12 d-flex flex-column flex-md-row justify-content-md-between mt-md-5">
         <div className="">
           <Input
             name={state.checked}

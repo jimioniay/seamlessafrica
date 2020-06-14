@@ -33,23 +33,23 @@ const Body = () => (
         </div>
       </div>
       <div className="mt-5 mb-3 col-12">
-        <div className="">
+        <div className="body-text">
           <Text text="Exhaustive intellectual, legal and market research has been done over a number of years to determine what Zimbabwe and the region needs in order to enjoy the economic growth that it has a right to. MyAngu is the result of this work." />
         </div>
       </div>
-      <div className="d-flex flex-column flex-lg-row px-2">
-        <div className="mb-3 px-2">
+      <div className="d-flex flex-column flex-lg-row px-2 w-100 justify-content-center">
+        <div className="mb-3 px-1 pr-md-3 mr-md-1">
           <SVG name="checkbox" />
           <Text
             text="Send grains to family and friends"
             classNames="bold d-inline ml-2 text-wrap"
           />
         </div>
-        <div className="mb-3 px-2">
+        <div className="mb-3 px-1 pr-md-3 mr-md-1">
           <SVG name="checkbox" />
           <Text text="Save in a secure way" classNames="bold d-inline ml-2" />
         </div>
-        <div className="mb-3 px-2">
+        <div className="mb-3 px-1 pr-md-3 mr-md-1">
           <SVG name="checkbox" />
           <Text
             text="Spend grains at participating retailers"

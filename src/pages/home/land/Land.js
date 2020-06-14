@@ -15,7 +15,7 @@ const Land = () => (
           <div className="mb-4">
             <Title text="A seamless and cheaper voucher based money transfer & payment experience" />
           </div>
-          <div className="mb-5">
+          <div className="mb-5 pr-lg-5">
             <Text
               text="We designed a robust solution that enables you make voucher based
               money transfer and payments, signup and fund your virtual wallet

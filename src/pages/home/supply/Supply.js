@@ -8,7 +8,7 @@ import './supply.css';
 const Supply = () => (
   <section className="section">
     <div className="container">
-      <div className="margin d-flex flex-column">
+      <div className="margin d-flex flex-column mb-md-5">
         <div>
           <Title
             text="Our Supply Partners"

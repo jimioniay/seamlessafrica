@@ -6,6 +6,11 @@ const Menu = () => (
   <nav>
     <ul className="nav-list-block">
       <li className="nav-list--item">
+        <Link className="nav-link" to="/">
+          Home
+        </Link>
+      </li>
+      <li className="nav-list--item">
         <Link className="nav-link" to="/about">
           About Us
         </Link>
