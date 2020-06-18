@@ -54,7 +54,7 @@ const FormBody = () => {
             value={state.checked}
           />
           <p className="muted d-inline">
-            I agree to the terms of Seamless African Fintech's Privacy Policy.
+            I agree to the terms of Bruggen Fintech's Privacy Policy.
           </p>
         </div>
         <Button handleClick={handleClick} classNames="wd-100 wd-md-25">

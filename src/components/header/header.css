@@ -18,11 +18,16 @@
   padding: 5px;
 }
 
-.logo svg {
+.logo svg,
+.logo img {
   margin: 0;
   padding: 0;
   width: 115px;
   height: auto;
+}
+
+.logo img {
+  width: 90px;
 }
 
 .header-menu {

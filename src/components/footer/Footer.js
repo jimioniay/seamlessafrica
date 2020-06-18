@@ -54,14 +54,20 @@ const Footer = () => (
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-3 order-md-1 ">
+        <div className="col-12 col-md-3 order-md-1 align-self-center">
           <div className="d-flex flex-column footer-brand mb-3 justify-content-center">
-            <div className="mb-3 text-center ">
+            <div className="mb-3 text-center logo">
               &nbsp;&nbsp;&nbsp;
-              <SVG name="saf-logo" />
+              <img
+                src="https://res.cloudinary.com/seamless-africa-fintech/image/upload/v1592485599/logo_transparent_xxovxf.png"
+                alt="Bruggen Logo"
+                srcset=""
+                className="mb-0 p-0"
+              />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <Text
-              text="&#169; 2020 Seamless Africa Fintech."
+              text="&#169; 2020 Bruggen Fintech."
               classNames="small-text text-center "
             />
           </div>
