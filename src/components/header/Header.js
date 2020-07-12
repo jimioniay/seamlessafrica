@@ -13,12 +13,7 @@ const Nav = () => {
       <div className="container">
         <nav className="header-navbar">
           <Link to="/" className="logo">
-            <img
-              src="https://res.cloudinary.com/seamless-africa-fintech/image/upload/v1592485599/logo_transparent_xxovxf.png"
-              alt="Bruggen Logo"
-              srcset=""
-              className="mb-0 p-0"
-            />
+            <SVG name="saf-logo" />
           </Link>
           <div className="header-menu" onClick={handleClick}>
             <SVG name="harmburger" />

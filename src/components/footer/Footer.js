@@ -58,16 +58,11 @@ const Footer = () => (
           <div className="d-flex flex-column footer-brand mb-3 justify-content-center">
             <div className="mb-3 text-center logo">
               &nbsp;&nbsp;&nbsp;
-              <img
-                src="https://res.cloudinary.com/seamless-africa-fintech/image/upload/v1592485599/logo_transparent_xxovxf.png"
-                alt="Bruggen Logo"
-                srcset=""
-                className="mb-0 p-0"
-              />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SVG name="saf-logo" />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <Text
-              text="&#169; 2020 Bruggen Fintech."
+              text="&#169; 2020 Seamless Africa Fintech."
               classNames="small-text text-center "
             />
           </div>
